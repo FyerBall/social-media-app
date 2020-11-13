@@ -1,5 +1,135 @@
+:root {
+  --main-color: #f4f4f4;
+  --secondary-color: #ffa372;
+  --outline-color: #52575d;
+  --divider-color: #e5e5e5;
+  --fav-iconcolor: #ea5455;
+  --comment-iconcolor: #2d4059;
+  --text-color: #0f3460;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: var(--main-color);
+  color: var(--text-color);
+}
+
+nav {
+  height: 75px;
+  text-align: center;
+  background: var(--secondary-color);
+}
+section {
+  padding: 1rem 0;
+}
+
+.divider {
+  border-bottom: 1px solid var(--divider-color);
+  width: 90%;
+  margin: 1rem auto 0;
+}
+
+/* people */
+.people {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 1rem;
+}
+.people img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+}
+.people img:hover {
+  /* background: var(--secondary-color); */
+  cursor: pointer;
+  padding: 0.2rem;
+  border: 2px solid var(--outline-color);
+}
+.people__name {
+  margin-top: 0.3rem;
+  display: inline-block;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+/* end people */
+
+/* feed */
+.feed__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.3rem;
+}
+
+.feed__header h3 {
+  padding-bottom: 0.3rem;
+}
+.feed__cta button {
+  outline: none;
+  cursor: pointer;
+  margin: 0 0.7rem;
+  border: none;
+  color: var(--text-color);
+  transition: 0.3s ease-in-out;
+}
+.feed__cta button:hover {
+  background: var(--secondary-color);
+  padding: 0.4rem 0.7rem;
+  border-radius: 1rem;
+}
+
+.card {
+  width: 365px;
+  height: 195px;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+.card__image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 2px solid var(--outline-color);
+}
+.card__avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+
+  border: 2px solid var(--outline-color);
+}
+.card__person,
+.card__icons {
+  display: flex;
+  align-items: center;
+}
+.card__icons span {
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+.card__name {
+  margin-left: 0.3rem;
+}
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.favIcon {
+  color: var(--fav-iconcolor);
+}
+.comIcon {
+  color: var(--comment-iconcolor);
+}
+
+/* end feed */

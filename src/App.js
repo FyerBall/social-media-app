@@ -1,9 +1,14 @@
 import React from 'react';
+import Nav from './components/Nav';
+import People from './components/People';
+import Feed from './components/Feed';
 import './App.css';
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Nav />
+      <People />
+      <Feed />
     </div>
   );
 }
