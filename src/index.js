@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import FeedProvider from './context';
 ReactDOM.render(
-  <App />,
-
+  <FeedProvider>
+    <App />
+  </FeedProvider>,
   document.getElementById('root')
 );
 

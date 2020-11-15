@@ -42,10 +42,18 @@ section {
   padding: 1rem 0;
   margin-top: 1rem;
 }
+.people__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .people img {
   width: 4rem;
   height: 4rem;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 50%;
   transition: 0.3s ease-in-out;
 }
@@ -116,14 +124,16 @@ section {
   display: inline-block;
   margin: 0 0.3rem;
 }
-.card__name {
+.card__name,
+.card__date {
   margin-left: 0.3rem;
 }
+
 .card__footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin: 1rem auto 3rem;
 }
 .favIcon {
   color: var(--fav-iconcolor);
