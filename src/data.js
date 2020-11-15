@@ -17,7 +17,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '11/2/2020',
+      created: '11-2-2020',
     },
   },
   {
@@ -28,7 +28,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '11/5/2020',
+      created: '11-5-2020',
     },
   },
   {
@@ -39,7 +39,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '11/7/2020',
+      created: '11-7-2020',
     },
   },
   {
@@ -50,7 +50,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '1/2/2020',
+      created: '1-2-2020',
     },
   },
   {
@@ -61,7 +61,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '1/9/2020',
+      created: '1-9-2020',
     },
   },
   {
@@ -72,7 +72,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '1/1/2020',
+      created: '1-1-2020',
     },
   },
   {
@@ -83,7 +83,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '6/29/2020',
+      created: '6-29-2020',
     },
   },
   {
@@ -94,7 +94,7 @@ export const data = [
       img: cardImg,
       comments: 894,
       fav: 235,
-      created: '12/26/2019',
+      created: '12-26-2019',
     },
   },
 ];

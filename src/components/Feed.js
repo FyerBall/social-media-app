@@ -5,17 +5,16 @@ import Moment from 'react-moment';
 import { FeedContext } from '../context';
 
 function Feed() {
-  const { feeds, isLoading, newest } = useContext(FeedContext);
-  console.log(newest);
+  const { feeds, isLoading, getNewest, getOldest } = useContext(FeedContext);
 
   return (
     <section className='feed'>
       <div className='feed__header'>
         <h3>Feed</h3>
         <div className='feed__cta'>
-          <button onClick={() => console.log('Newest')}>Newest</button>
-          <button onClick={() => console.log('Oldest Clicked')}>Oldest</button>
-          <button onClick={() => console.log('All Clicked')}>All</button>
+          <button onClick={() => getNewest()}>Newest</button>
+          <button onClick={() => getOldest()}>Oldest</button>
+          <button onClick={() => console.log(feeds)}>All</button>
         </div>
       </div>
 
