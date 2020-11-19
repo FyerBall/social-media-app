@@ -13,6 +13,8 @@ export const data = [
     id: 1,
     avatar: avatar1,
     name: 'Willie Brandt',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -24,6 +26,8 @@ export const data = [
     id: 2,
     avatar: avatar2,
     name: 'Daniel Fox',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -35,6 +39,8 @@ export const data = [
     id: 3,
     avatar: avatar3,
     name: 'Kathy Campbell',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -46,6 +52,8 @@ export const data = [
     id: 4,
     avatar: avatar4,
     name: 'Evelyn Dorman',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -57,6 +65,8 @@ export const data = [
     id: 5,
     avatar: avatar5,
     name: 'Nancy Stewart',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -68,6 +78,8 @@ export const data = [
     id: 6,
     avatar: avatar6,
     name: 'Jonathan Jordan',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -79,6 +91,8 @@ export const data = [
     id: 7,
     avatar: avatar7,
     name: 'Taras Shypka',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,
@@ -90,6 +104,8 @@ export const data = [
     id: 8,
     avatar: avatar8,
     name: 'Julian Wan',
+    bio:
+      "I'm baby paleo normcore retro, farm-to-table gastropub disrupt mlkshk actually edison bulb umami taxidermy palo santo slow-carb ennui. Brooklyn keytar waistcoat, health goth chartreuse organic vice tumeric dreamcatcher forage cray photo booth tofu air plant. Chillwave distillery poutine neutra adaptogen small batch. Intelligentsia umami taiyaki wolf. Irony pork belly yuccie slow-carb hell of etsy umami pour-over health goth selfies kinfolk tacos cronut glossier hashtag. Iceland pork belly kale chips bicycle rights art party dreamcatcher. Man braid fam brunch art party tousled tofu.",
     feed: {
       img: cardImg,
       comments: 894,

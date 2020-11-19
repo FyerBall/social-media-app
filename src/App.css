@@ -36,19 +36,15 @@ section {
 /* people */
 .people {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: 1rem;
+  padding: 0.4rem 0;
+  flex-wrap: nowrap;
+  overflow: auto;
 }
 .people__container {
   display: flex;
   flex-direction: column;
-  width: 100%;
   align-items: center;
-  justify-content: center;
-  text-align: center;
+  margin: 0.9rem;
 }
 .people img {
   width: 4rem;
@@ -82,6 +78,24 @@ section {
 .feed__header h3 {
   padding-bottom: 0.3rem;
 }
+.feed__cta {
+  display: flex;
+  align-items: center;
+}
+
+.feed__cta select {
+  /* background-color: var(--secondary-color); */
+  color: var(--text-color);
+  font-size: inherit;
+  padding: 0.3rem;
+  padding-right: 0.7rem;
+  border: 0;
+  margin-left: 0.3rem;
+  outline: none;
+  border-radius: 0.4rem;
+  text-transform: capitalize;
+}
+
 .feed__cta button {
   outline: none;
   cursor: pointer;
@@ -97,10 +111,18 @@ section {
 }
 
 .card {
-  width: 365px;
+  /* width: 365px;
   height: 195px;
-  margin: 2rem auto;
-  cursor: pointer;
+  cursor: pointer; */
+  margin: 2rem 1rem;
+  /* max-width: 365px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+.card a {
+  text-decoration: none;
+  color: inherit;
 }
 .card__image {
   width: 100%;
@@ -143,3 +165,23 @@ section {
 }
 
 /* end feed */
+
+/* Profile */
+.profile {
+}
+.profile header {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.profile__avatar {
+  width: 6rem !important;
+  height: 6rem !important;
+}
+.bio {
+  margin: 2rem auto;
+  text-align: left;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+}
+/* End Profile */

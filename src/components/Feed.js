@@ -3,6 +3,7 @@ import FavoriteIcon from '@material-ui/icons/Favorite';
 import SmsIcon from '@material-ui/icons/Sms';
 import Moment from 'react-moment';
 import { FeedContext } from '../context';
+import { Link } from 'react-router-dom';
 
 function Feed() {
   const { feeds, isLoading, getNewest, getOldest } = useContext(FeedContext);
@@ -12,9 +13,18 @@ function Feed() {
       <div className='feed__header'>
         <h3>Feed</h3>
         <div className='feed__cta'>
-          <button onClick={() => getNewest()}>Newest</button>
-          <button onClick={() => getOldest()}>Oldest</button>
-          <button onClick={() => console.log(feeds)}>All</button>
+          <p>Sort By</p>
+          <select>
+            <option value='newest' onSelect={() => console.log('Clicked')}>
+              newest
+            </option>
+            <option value='oldest' onClick={() => console.log('Clicked')}>
+              oldest
+            </option>
+            <option value='all' onClick={() => console.log('Clicked')}>
+              all
+            </option>
+          </select>
         </div>
       </div>
 
@@ -32,13 +42,13 @@ function Feed() {
             } = item;
 
             return (
-              <Fragment key={id}>
+              <Link to={`/profile/${id}`} key={id}>
                 <div className='card__img'>
                   <img className='card__image' src={img} alt={name} />
                 </div>
                 <div className='card__footer'>
                   <div className='card__person'>
-                    <img className='card__avatar' src={avatar} alt='' />
+                    <img className='card__avatar' src={avatar} alt={name} />
                     <div className=''>
                       <h4 className='card__name'>{name}</h4>
                       <small className='card__date'>
@@ -58,7 +68,7 @@ function Feed() {
                     </span>
                   </div>
                 </div>
-              </Fragment>
+              </Link>
             );
           })}
         </div>
