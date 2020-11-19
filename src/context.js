@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { data } from './data';
+import { db } from './firebase';
 export const FeedContext = React.createContext();
 
 export default function GuruProvider({ children }) {
-  const [isLoading, setIsLoading] = useState(true);
-  const [feeds, setFeed] = useState(data);
+  const [isLoading, setIsLoading] = useState(false);
+  const [feeds, setFeeds] = useState([]);
   const [newest, setNewest] = useState();
   const [isSorted, setIsSorted] = useState(true);
 
@@ -39,11 +40,12 @@ export default function GuruProvider({ children }) {
   // }
 
   useEffect(() => {
-    setIsSorted(false);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-  }, [feeds]);
+    db.collection('feeds').onSnapshot((snapshot) => {
+      // every time a new thing (feed) added, the code will fire
+      setFeeds(snapshot.docs.map((doc) => doc.data()));
+    });
+  }, []);
+
   return (
     <FeedContext.Provider value={{ feeds, isLoading, getNewest, getOldest }}>
       {children}

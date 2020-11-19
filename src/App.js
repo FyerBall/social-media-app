@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Nav from './components/Nav';
-import People from './components/People';
-import Feed from './components/Feed';
+// import People from './components/People';
+import Feeds from './components/Feeds';
 import Profile from './components/Profile';
 
 import './App.css';
@@ -15,8 +15,8 @@ function App() {
       <Switch>
         <Route exact path='/'>
           {/* put these too in home */}
-          <People />
-          <Feed />
+          {/* <People /> */}
+          <Feeds />
         </Route>
         <Route path='/profile/:slug'>
           <Profile />
@@ -25,5 +25,9 @@ function App() {
     </Router>
   );
 }
+
+// Header
+// Posts
+// Posts
 
 export default App;

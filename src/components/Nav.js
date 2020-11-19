@@ -1,9 +1,15 @@
 import React from 'react';
-
+import logo from '../assets/logo.svg';
 function Nav() {
   return (
     <nav>
-      <h1>Logo</h1>
+      <img className='logo' src={logo} alt='logo' />
+      <div className='nav__cta'>
+        <ul>
+          <li>Sign in</li>
+          <li>Sign up</li>
+        </ul>
+      </div>
     </nav>
   );
 }
